@@ -33,7 +33,7 @@ func CountNucleotidesByRuneRange(dna string) map[rune]int {
 }
 
 func CountNucleotidesArrayBytes(dna string) map[byte]int {
-	chars := [4]int{0, 0, 0, 0}
+	chars := [4]int{}
 	for i := range len(dna) {
 		switch dna[i] {
 		case 'A':
@@ -55,7 +55,7 @@ func CountNucleotidesArrayBytes(dna string) map[byte]int {
 }
 
 func CountNucleotidesArrayRunes(dna string) map[rune]int {
-	chars := [4]int{0, 0, 0, 0}
+	chars := [4]int{}
 	for i := range dna {
 		switch dna[i] {
 		case 'A':
