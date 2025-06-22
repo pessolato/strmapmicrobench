@@ -17,6 +17,10 @@ coverage.*
 *.coverprofile
 profile.cov
 
+# Profile graphs
+*.png
+*.svg
+
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
